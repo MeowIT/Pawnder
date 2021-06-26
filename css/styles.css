@@ -1,0 +1,207 @@
+/* NOTE: Basic HTML */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #D83A56;
+  color: #F9F9F9;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  padding: 0 10% 0 10%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 200;
+}
+
+.a {
+  font-size: 3rem;
+}
+
+/* NOTE: Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* NOTE: Images */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  padding-left: 5rem;
+}
+
+.testimonials-img {
+  margin: 20px;
+  border-radius: 50%;
+  width: 10%;
+}
+
+.press-img {
+  margin: 0 80px 0 0;
+  width: 15%;
+}
+
+.dog-bone {
+  transform: rotate(315deg);
+}
+
+/* NOTE: Download Buttons */
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* NOTE: Features */
+#features {
+  text-align: center;
+  position: relative;
+  background-color: white;
+  bottom: 10rem;
+
+}
+
+.fi {
+  color: #FF616D;
+  padding: 2rem;
+}
+
+.fi:hover {
+  color: #D83A56;
+}
+
+/* NOTE: Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FF616D;
+  color: #f9f9f9;
+}
+
+/* NOTE: Press */
+#press {
+  background-color: #FF616D;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* NOTE: Pricing */
+#pricing {
+  text-align: center;
+}
+
+.pricing-title {
+  padding: 5%;
+}
+
+.price-card {
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.btn-outline-danger {
+  width: 100%;
+}
+
+.card-header {
+  background-color: #D83A56;
+  text-align: center;
+}
+
+/* NOTE: Animation */
+.dog {
+  transition: transform .3s;
+  margin: 3%;
+}
+
+.dog:hover {
+  transform: scale(1.5);
+  border: solid 0.5px #D83A56;
+  border-radius: 5px;
+}
+
+.cat {
+  transition: transform .3s;
+  margin: 3%;
+}
+
+.cat:hover {
+  transform: scale(1.5);
+  border: solid 0.5px #D83A56;
+  border-radius: 5px;
+}
+
+.other {
+  transition: transform .3s;
+  margin: 3%;
+}
+
+.other:hover {
+  transform: scale(1.5);
+  border: solid 0.5px #D83A56;
+  border-radius: 5px;
+}
+/* NOTE: Call to action */
+#cta{
+  background-color: #D83A56;
+  color: #F9F9F9;
+}
+.cta{
+  font-size: 4rem;
+}
+
+/* NOTE: Footer */
+#footer{
+  background-color: #fff;
+  height: 10rem;
+}
+.footer{
+  margin-top: 5rem;
+}
+.footer-p{
+    margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #C4B6B6;
+  text-align: center;
+
+}
+.social-media{
+  text-align: center;
+}

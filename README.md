@@ -1,2 +1,1 @@
-# Pawnder
-It's like tinder for animals!
+TinDog Starting Files
